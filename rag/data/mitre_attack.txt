@@ -1,0 +1,133 @@
+MITRE ATT&CK Tactics:
+
+Brute Force Attack:
+Repeated failed login attempts targeting accounts.
+
+Ransomware:
+Malware encrypts files and demands payment.
+
+PowerShell Attack:
+Suspicious encoded PowerShell commands may indicate malware execution.
+
+Credential Dumping:
+Attackers attempt to steal credentials from memory.
+
+Privilege Escalation:
+Attackers gain higher-level permissions.
+
+Reconnaissance:
+Adversaries gather information about the target before launching an attack.
+
+Resource Development:
+Attackers acquire infrastructure, tools, or accounts to support operations.
+
+Initial Access:
+Adversaries gain a foothold into the network via phishing, exploits, or stolen credentials.
+
+Execution:
+Malicious code is run on a target system to carry out attacker objectives.
+
+Persistence:
+Attackers maintain access across reboots, credential changes, or interruptions.
+
+Privilege Escalation:
+Attackers gain higher-level permissions to access sensitive systems or data.
+
+Defense Evasion:
+Adversaries hide their presence by disabling security tools or obfuscating activity.
+
+Credential Access:
+Attackers steal usernames and passwords from memory, files, or network traffic.
+
+Discovery:
+Adversaries map the environment to understand systems, users, and network layout.
+
+Lateral Movement:
+Attackers move through the network to reach high-value targets.
+
+Collection:
+Sensitive data is gathered from endpoints, emails, or shared drives prior to exfiltration.
+
+Command and Control:
+Attackers communicate with compromised systems to issue commands remotely.
+
+Exfiltration:
+Stolen data is transferred out of the environment to attacker-controlled infrastructure.
+
+Impact:
+Adversaries disrupt, destroy, or manipulate systems to achieve their final objective.
+
+CVE Severity Levels:
+
+Critical (9.0–10.0):
+Remotely exploitable vulnerabilities requiring no authentication or user interaction.
+
+High (7.0–8.9):
+Serious flaws that can lead to full system compromise with minimal conditions.
+
+Medium (4.0–6.9):
+Vulnerabilities requiring local access or specific conditions to exploit.
+
+Low (0.1–3.9):
+Limited-impact flaws with significant exploitation barriers.
+
+Known Exploited Vulnerability (KEV):
+A CVE confirmed by CISA to be actively exploited in real-world attacks.
+
+Malware Types:
+
+Ransomware:
+Malware encrypts files and demands payment for the decryption key.
+
+Infostealer:
+Silently harvests credentials, browser data, and session tokens from infected machines.
+
+RAT (Remote Access Trojan):
+Gives attackers full remote control over a compromised endpoint.
+
+Loader/Dropper:
+Delivers and installs additional malware payloads onto a victim system.
+
+Wiper:
+Destructive malware designed to permanently destroy data with no recovery option.
+
+Botnet:
+Network of infected machines controlled remotely for spam, DDoS, or fraud.
+
+Rootkit:
+Hides malware and attacker activity deep within the operating system.
+
+Keylogger:
+Records every keystroke to capture passwords and sensitive user input.
+
+SOC Playbook Types:
+
+Phishing Response:
+Analyze, contain, and purge malicious emails while notifying affected users.
+
+Ransomware Response:
+Isolate hosts, preserve forensic evidence, assess backups, and engage IR team.
+
+Account Compromise:
+Reset credentials, revoke active sessions, audit logs, and enforce MFA.
+
+Malware Infection:
+Isolate the endpoint, extract IOCs, sweep for lateral spread, and reimage.
+
+Brute Force Attack:
+Repeated failed login attempts targeting accounts to gain unauthorized access.
+
+Credential Dumping:
+Attackers extract credentials from memory, registries, or local credential stores.
+
+PowerShell Attack:
+Suspicious encoded PowerShell commands may indicate fileless malware execution.
+
+Insider Threat:
+Place legal hold, revoke access, and preserve forensic evidence for investigation.
+
+DDoS Attack:
+Engage upstream filtering, apply rate limits, and coordinate with ISP for mitigation.
+
+Privilege Escalation:
+Attackers exploit misconfigurations or vulnerabilities to gain elevated system access.
